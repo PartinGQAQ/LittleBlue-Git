@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0433F2A280F0FF1001E04C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0433F29280F0FF1001E04C1 /* AppDelegate.swift */; };
+		E0433F2C280F0FF1001E04C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0433F2B280F0FF1001E04C1 /* SceneDelegate.swift */; };
+		E0433F2E280F0FF1001E04C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0433F2D280F0FF1001E04C1 /* ViewController.swift */; };
+		E0433F31280F0FF1001E04C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0433F2F280F0FF1001E04C1 /* Main.storyboard */; };
+		E0433F33280F0FF2001E04C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0433F32280F0FF2001E04C1 /* Assets.xcassets */; };
+		E0433F36280F0FF2001E04C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0433F34280F0FF2001E04C1 /* LaunchScreen.storyboard */; };
+		E0433F41280F0FF2001E04C1 /* LittleBlue_GitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0433F40280F0FF2001E04C1 /* LittleBlue_GitTests.swift */; };
+		E0433F4B280F0FF2001E04C1 /* LittleBlue_GitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0433F4A280F0FF2001E04C1 /* LittleBlue_GitUITests.swift */; };
+		E0433F4D280F0FF2001E04C1 /* LittleBlue_GitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0433F4C280F0FF2001E04C1 /* LittleBlue_GitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0433F3D280F0FF2001E04C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0433F1E280F0FF1001E04C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0433F25280F0FF1001E04C1;
+			remoteInfo = "LittleBlue-Git";
+		};
+		E0433F47280F0FF2001E04C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0433F1E280F0FF1001E04C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0433F25280F0FF1001E04C1;
+			remoteInfo = "LittleBlue-Git";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0433F26280F0FF1001E04C1 /* LittleBlue-Git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittleBlue-Git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0433F29280F0FF1001E04C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0433F2B280F0FF1001E04C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E0433F2D280F0FF1001E04C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0433F30280F0FF1001E04C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0433F32280F0FF2001E04C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0433F35280F0FF2001E04C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0433F37280F0FF2001E04C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0433F3C280F0FF2001E04C1 /* LittleBlue-GitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LittleBlue-GitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0433F40280F0FF2001E04C1 /* LittleBlue_GitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleBlue_GitTests.swift; sourceTree = "<group>"; };
+		E0433F46280F0FF2001E04C1 /* LittleBlue-GitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LittleBlue-GitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0433F4A280F0FF2001E04C1 /* LittleBlue_GitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleBlue_GitUITests.swift; sourceTree = "<group>"; };
+		E0433F4C280F0FF2001E04C1 /* LittleBlue_GitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleBlue_GitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0433F23280F0FF1001E04C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0433F39280F0FF2001E04C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0433F43280F0FF2001E04C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0433F1D280F0FF1001E04C1 = {
+			isa = PBXGroup;
+			children = (
+				E0433F28280F0FF1001E04C1 /* LittleBlue-Git */,
+				E0433F3F280F0FF2001E04C1 /* LittleBlue-GitTests */,
+				E0433F49280F0FF2001E04C1 /* LittleBlue-GitUITests */,
+				E0433F27280F0FF1001E04C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0433F27280F0FF1001E04C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0433F26280F0FF1001E04C1 /* LittleBlue-Git.app */,
+				E0433F3C280F0FF2001E04C1 /* LittleBlue-GitTests.xctest */,
+				E0433F46280F0FF2001E04C1 /* LittleBlue-GitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0433F28280F0FF1001E04C1 /* LittleBlue-Git */ = {
+			isa = PBXGroup;
+			children = (
+				E0433F29280F0FF1001E04C1 /* AppDelegate.swift */,
+				E0433F2B280F0FF1001E04C1 /* SceneDelegate.swift */,
+				E0433F2D280F0FF1001E04C1 /* ViewController.swift */,
+				E0433F2F280F0FF1001E04C1 /* Main.storyboard */,
+				E0433F32280F0FF2001E04C1 /* Assets.xcassets */,
+				E0433F34280F0FF2001E04C1 /* LaunchScreen.storyboard */,
+				E0433F37280F0FF2001E04C1 /* Info.plist */,
+			);
+			path = "LittleBlue-Git";
+			sourceTree = "<group>";
+		};
+		E0433F3F280F0FF2001E04C1 /* LittleBlue-GitTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0433F40280F0FF2001E04C1 /* LittleBlue_GitTests.swift */,
+			);
+			path = "LittleBlue-GitTests";
+			sourceTree = "<group>";
+		};
+		E0433F49280F0FF2001E04C1 /* LittleBlue-GitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0433F4A280F0FF2001E04C1 /* LittleBlue_GitUITests.swift */,
+				E0433F4C280F0FF2001E04C1 /* LittleBlue_GitUITestsLaunchTests.swift */,
+			);
+			path = "LittleBlue-GitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0433F25280F0FF1001E04C1 /* LittleBlue-Git */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0433F50280F0FF2001E04C1 /* Build configuration list for PBXNativeTarget "LittleBlue-Git" */;
+			buildPhases = (
+				E0433F22280F0FF1001E04C1 /* Sources */,
+				E0433F23280F0FF1001E04C1 /* Frameworks */,
+				E0433F24280F0FF1001E04C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LittleBlue-Git";
+			productName = "LittleBlue-Git";
+			productReference = E0433F26280F0FF1001E04C1 /* LittleBlue-Git.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0433F3B280F0FF2001E04C1 /* LittleBlue-GitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0433F53280F0FF2001E04C1 /* Build configuration list for PBXNativeTarget "LittleBlue-GitTests" */;
+			buildPhases = (
+				E0433F38280F0FF2001E04C1 /* Sources */,
+				E0433F39280F0FF2001E04C1 /* Frameworks */,
+				E0433F3A280F0FF2001E04C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0433F3E280F0FF2001E04C1 /* PBXTargetDependency */,
+			);
+			name = "LittleBlue-GitTests";
+			productName = "LittleBlue-GitTests";
+			productReference = E0433F3C280F0FF2001E04C1 /* LittleBlue-GitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0433F45280F0FF2001E04C1 /* LittleBlue-GitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0433F56280F0FF2001E04C1 /* Build configuration list for PBXNativeTarget "LittleBlue-GitUITests" */;
+			buildPhases = (
+				E0433F42280F0FF2001E04C1 /* Sources */,
+				E0433F43280F0FF2001E04C1 /* Frameworks */,
+				E0433F44280F0FF2001E04C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0433F48280F0FF2001E04C1 /* PBXTargetDependency */,
+			);
+			name = "LittleBlue-GitUITests";
+			productName = "LittleBlue-GitUITests";
+			productReference = E0433F46280F0FF2001E04C1 /* LittleBlue-GitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0433F1E280F0FF1001E04C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E0433F25280F0FF1001E04C1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					E0433F3B280F0FF2001E04C1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = E0433F25280F0FF1001E04C1;
+					};
+					E0433F45280F0FF2001E04C1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = E0433F25280F0FF1001E04C1;
+					};
+				};
+			};
+			buildConfigurationList = E0433F21280F0FF1001E04C1 /* Build configuration list for PBXProject "LittleBlue-Git" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0433F1D280F0FF1001E04C1;
+			productRefGroup = E0433F27280F0FF1001E04C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0433F25280F0FF1001E04C1 /* LittleBlue-Git */,
+				E0433F3B280F0FF2001E04C1 /* LittleBlue-GitTests */,
+				E0433F45280F0FF2001E04C1 /* LittleBlue-GitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0433F24280F0FF1001E04C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0433F36280F0FF2001E04C1 /* LaunchScreen.storyboard in Resources */,
+				E0433F33280F0FF2001E04C1 /* Assets.xcassets in Resources */,
+				E0433F31280F0FF1001E04C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0433F3A280F0FF2001E04C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0433F44280F0FF2001E04C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0433F22280F0FF1001E04C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0433F2E280F0FF1001E04C1 /* ViewController.swift in Sources */,
+				E0433F2A280F0FF1001E04C1 /* AppDelegate.swift in Sources */,
+				E0433F2C280F0FF1001E04C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0433F38280F0FF2001E04C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0433F41280F0FF2001E04C1 /* LittleBlue_GitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0433F42280F0FF2001E04C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0433F4B280F0FF2001E04C1 /* LittleBlue_GitUITests.swift in Sources */,
+				E0433F4D280F0FF2001E04C1 /* LittleBlue_GitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0433F3E280F0FF2001E04C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0433F25280F0FF1001E04C1 /* LittleBlue-Git */;
+			targetProxy = E0433F3D280F0FF2001E04C1 /* PBXContainerItemProxy */;
+		};
+		E0433F48280F0FF2001E04C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0433F25280F0FF1001E04C1 /* LittleBlue-Git */;
+			targetProxy = E0433F47280F0FF2001E04C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0433F2F280F0FF1001E04C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0433F30280F0FF1001E04C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0433F34280F0FF2001E04C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0433F35280F0FF2001E04C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0433F4E280F0FF2001E04C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0433F4F280F0FF2001E04C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0433F51280F0FF2001E04C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3J9V7UDBKS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LittleBlue-Git/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruiqima.weather.LittleBlue-Git";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0433F52280F0FF2001E04C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3J9V7UDBKS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LittleBlue-Git/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruiqima.weather.LittleBlue-Git";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0433F54280F0FF2001E04C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3J9V7UDBKS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruiqima.weather.LittleBlue-GitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleBlue-Git.app/LittleBlue-Git";
+			};
+			name = Debug;
+		};
+		E0433F55280F0FF2001E04C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3J9V7UDBKS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruiqima.weather.LittleBlue-GitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleBlue-Git.app/LittleBlue-Git";
+			};
+			name = Release;
+		};
+		E0433F57280F0FF2001E04C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3J9V7UDBKS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruiqima.weather.LittleBlue-GitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LittleBlue-Git";
+			};
+			name = Debug;
+		};
+		E0433F58280F0FF2001E04C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3J9V7UDBKS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruiqima.weather.LittleBlue-GitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LittleBlue-Git";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0433F21280F0FF1001E04C1 /* Build configuration list for PBXProject "LittleBlue-Git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0433F4E280F0FF2001E04C1 /* Debug */,
+				E0433F4F280F0FF2001E04C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0433F50280F0FF2001E04C1 /* Build configuration list for PBXNativeTarget "LittleBlue-Git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0433F51280F0FF2001E04C1 /* Debug */,
+				E0433F52280F0FF2001E04C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0433F53280F0FF2001E04C1 /* Build configuration list for PBXNativeTarget "LittleBlue-GitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0433F54280F0FF2001E04C1 /* Debug */,
+				E0433F55280F0FF2001E04C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0433F56280F0FF2001E04C1 /* Build configuration list for PBXNativeTarget "LittleBlue-GitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0433F57280F0FF2001E04C1 /* Debug */,
+				E0433F58280F0FF2001E04C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0433F1E280F0FF1001E04C1 /* Project object */;
+}
